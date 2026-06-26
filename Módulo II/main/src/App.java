@@ -16,11 +16,6 @@ public class App {
         double valorHoraExtra = (valorHora * 50) / 100;
         double acrescimoHorasExtras = valorHoraExtra * qtdHoraExtra;
         double salBruto = salMes + salFamilia + valorHoraExtra;
-        if (res >= 7) {
-            System.out.println("Aprovado");
-        } else {
-            System.out.println("Reprovado");
-        }
         reader.close();
     }
 }
