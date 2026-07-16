@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class App {
     public static void main(String[] args) throws Exception {
         Scanner reader = new Scanner(System.in);           
-        System.out.println("Digite a de viagens: ");
+        System.out.println("Digite o numero de viagens: ");
         int qtdViagens = reader.nextInt();
         int viagensLidas = 0;
         int litros = 0;
